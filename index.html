@@ -21,11 +21,6 @@
 
 
 
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    /> -->
-
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" as="style">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     
@@ -526,8 +521,8 @@
     <!-- MODAL-->
     <div class="backdrop">
       <div class="modal-window">
-        <button class="modal-window-close-btn" type="button">
-          <svg class="modal-window-close-btn-icon" width="8" height="8">
+        <button class="modal-window-close-btn" type="button" aria-label="close modal window">
+          <svg class="modal-window-close-btn-icon" width="8" height="8" >
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -585,7 +580,7 @@
     <!-- MOBAIL MENU-->
     <div class="mobile-menu-window">
       <div class="container mobile-menu-container">
-        <button class="mobile-menu-close-btn" type="button">
+        <button class="mobile-menu-close-btn" type="button" aria-label="close mobile menu">
           <svg class="mobile-menu-close-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
